@@ -12,3 +12,12 @@ ProxyHuntr is a Free and OpenSource Proxy Finder and Checker. ProxyHuntr is writ
 
 ## Technical
 ProxyHuntr check proxies by using them as they would be used: make an HTTP request and verify the result.
+
+## How to Install
+#### Windows
+If you're on windows and not planning on changing the sourcecode, download the latest pre-compiled release. This will make sure that ProxyHuntr works without having to install Python and different modules!
+
+#### All Platforms
+1. Install Python 3.x (3.5 has been tested).
+2. Run `pip install -r requirements.txt` to install the dependencies.
+3. Run `python main.py` or `python3 main.py`.
