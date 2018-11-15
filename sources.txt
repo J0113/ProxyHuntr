@@ -1,0 +1,58 @@
+## Sources for ProxyGen ##
+##  Updated oct. 2018   ##
+
+# Text Files
+http://rootjazz.com/proxies/proxies.txt
+http://spys.me/proxy.txt
+
+# One Page sites with lots of proxies
+http://proxyape.com
+http://proxy-daily.com
+https://proxyunique.com
+http://www.thebigproxylist.com/
+
+# Blogspot sites
+http://sslproxies24.blogspot.in/feeds/posts/default
+http://proxyserverlist-24.blogspot.com/feeds/posts/default
+http://www.freshnewproxies24.top/feeds/posts/default
+
+# Aliveproxy.com
+http://aliveproxy.com/anonymous-proxy-list
+http://aliveproxy.com/ca-proxy-list
+http://aliveproxy.com/fastest-proxies
+http://aliveproxy.com/fr-proxy-list
+http://aliveproxy.com/gb-proxy-list
+http://aliveproxy.com/high-anonymity-proxy-list
+http://aliveproxy.com/jp-proxy-list
+http://aliveproxy.com/proxy-list-port-3128
+http://aliveproxy.com/proxy-list-port-80
+http://aliveproxy.com/proxy-list-port-8000
+http://aliveproxy.com/proxy-list-port-8080
+http://aliveproxy.com/ru-proxy-list
+http://aliveproxy.com/us-proxy-list
+
+# Atomintersoft.com seems a bit unstable but does find proxies
+http://atomintersoft.com/anonymous_proxy_list
+http://atomintersoft.com/high_anonymity_elite_proxy_list
+http://atomintersoft.com/products/alive-proxy/proxy-list
+http://atomintersoft.com/products/alive-proxy/proxy-list?ap=9
+http://atomintersoft.com/products/alive-proxy/proxy-list/3128
+http://atomintersoft.com/products/alive-proxy/proxy-list/com
+http://atomintersoft.com/products/alive-proxy/proxy-list/high-anonymity/
+http://atomintersoft.com/proxy_list_port_3128
+http://atomintersoft.com/proxy_list_port_80
+http://atomintersoft.com/proxy_list_port_8000
+http://atomintersoft.com/proxy_list_port_81
+http://atomintersoft.com/transparent_proxy_list
+
+# my-proxy.com
+https://www.my-proxy.com/free-proxy-list.html
+https://www.my-proxy.com/free-proxy-list-2.html
+https://www.my-proxy.com/free-proxy-list-3.html
+https://www.my-proxy.com/free-proxy-list-4.html
+https://www.my-proxy.com/free-proxy-list-5.html
+https://www.my-proxy.com/free-proxy-list-6.html
+https://www.my-proxy.com/free-proxy-list-7.html
+https://www.my-proxy.com/free-proxy-list-8.html
+https://www.my-proxy.com/free-proxy-list-9.html
+https://www.my-proxy.com/free-proxy-list-10.html
