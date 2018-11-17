@@ -38,12 +38,15 @@ else:
             algorithm,threads,judge,timeout,VerifyIP,VerifyIPURL,FindCountry,CPUsupport = pickle.load(f)
         pass
 
-with open(("temp/Transparent.txt"), "w+") as f:
-    f.write("")
-with open(("temp/Anonymous.txt"), "w+") as f:
-    f.write("")
-with open(("temp/Elite.txt"), "w+") as f:
-    f.write("")
+if os.path.isfile("temp/Transparent.txt") == True:
+    with open(("temp/Transparent.txt"), "w+") as f:
+        f.write("")
+if os.path.isfile("temp/Anonymous.txt") == True:
+    with open(("temp/Anonymous.txt"), "w+") as f:
+        f.write("")
+if os.path.isfile("temp/Elite.txt") == True:
+    with open(("temp/Elite.txt"), "w+") as f:
+        f.write("")
 
 # Find all proxies in file
 def scrape(file,redex,self):
@@ -241,7 +244,7 @@ class ProxyHuntrGUI(QMainWindow):
                 try:
                     self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem((requests.get("http://ip2c.org/?ip="+(proxy.split(":")[0]), timeout=5, headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'}).text).split(";")[3]))
                 except Exception as e:
-                    self.ui.Proxies.setItem("Unknown")
+                    self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem("Unknown"))
             else:
                 self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem(""))
             self.ui.Proxies.setItem(listcurrent,3,QTableWidgetItem("Elite"))
@@ -256,7 +259,7 @@ class ProxyHuntrGUI(QMainWindow):
                 try:
                     self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem((requests.get("http://ip2c.org/?ip="+(proxy.split(":")[0]), timeout=5, headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'}).text).split(";")[3]))
                 except Exception as e:
-                    self.ui.Proxies.setItem("Unknown")
+                    self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem("Unknown"))
             else:
                 self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem(""))
             self.ui.Proxies.setItem(listcurrent,3,QTableWidgetItem("Anonymous"))
@@ -271,7 +274,7 @@ class ProxyHuntrGUI(QMainWindow):
                 try:
                     self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem((requests.get("http://ip2c.org/?ip="+(proxy.split(":")[0]), timeout=5, headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'}).text).split(";")[3]))
                 except Exception as e:
-                    self.ui.Proxies.setItem("Unknown")
+                    self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem("Unknown"))
             else:
                 self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem(""))
             self.ui.Proxies.setItem(listcurrent,3,QTableWidgetItem("Transparent"))
@@ -375,7 +378,7 @@ class ProxyHuntrGUI(QMainWindow):
                 try:
                     self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem((requests.get("http://ip2c.org/?ip="+(proxy.split(":")[0]), timeout=5, headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'}).text).split(";")[3]))
                 except Exception as e:
-                    self.ui.Proxies.setItem("Unknown")
+                    self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem("Unknown"))
             else:
                 self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem(""))
             self.ui.Proxies.setItem(listcurrent,3,QTableWidgetItem("Elite"))
@@ -390,7 +393,7 @@ class ProxyHuntrGUI(QMainWindow):
                 try:
                     self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem((requests.get("http://ip2c.org/?ip="+(proxy.split(":")[0]), timeout=5, headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'}).text).split(";")[3]))
                 except Exception as e:
-                    self.ui.Proxies.setItem("Unknown")
+                    self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem("Unknown"))
             else:
                 self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem(""))
             self.ui.Proxies.setItem(listcurrent,3,QTableWidgetItem("Anonymous"))
@@ -405,7 +408,7 @@ class ProxyHuntrGUI(QMainWindow):
                 try:
                     self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem((requests.get("http://ip2c.org/?ip="+(proxy.split(":")[0]), timeout=5, headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'}).text).split(";")[3]))
                 except Exception as e:
-                    self.ui.Proxies.setItem("Unknown")
+                    self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem("Unknown"))
             else:
                 self.ui.Proxies.setItem(listcurrent,2,QTableWidgetItem(""))
             self.ui.Proxies.setItem(listcurrent,3,QTableWidgetItem("Transparent"))
