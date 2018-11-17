@@ -23,8 +23,12 @@ If you're on windows and not planning on changing the sourcecode, download the l
 3. Run `python main.py` or `python3 main.py`.
 
 ## Downloads
-Latests Version: `RC 2`
+Latests Version: `RC2 (Pre-Release)`
 
 [Windows Installer (.exe)](https://github.com/J0113/ProxyHuntr/releases/download/RC2/ProxyHuntr.Setup.RC2.exe)(60MB)
+
 [Windows Protable (.zip)](https://github.com/J0113/ProxyHuntr/releases/download/RC2/ProxyHuntr.Windows.RC2.zip)(85MB)
+
 [Source Code (.zip)](https://github.com/J0113/ProxyHuntr/archive/RC2.zip)
+
+> NOTE: If you use the windows installer and install to the default directory. RUN ProxyHuntr EVERYTIME as ADMIN, ProxyHuntr saves files in it's relative directory; it needs admin rights to do that in the program files dir. Will be fixed later!
