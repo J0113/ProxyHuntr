@@ -21,3 +21,10 @@ If you're on windows and not planning on changing the sourcecode, download the l
 1. Install Python 3.x (3.5 has been tested).
 2. Run `pip install -r requirements.txt` to install the dependencies.
 3. Run `python main.py` or `python3 main.py`.
+
+## Downloads
+Latests Version: `RC 2`
+
+[Windows Installer (.exe)](https://github.com/J0113/ProxyHuntr/releases/download/RC2/ProxyHuntr.Setup.RC2.exe)(60MB)
+[Windows Protable (.zip)](https://github.com/J0113/ProxyHuntr/releases/download/RC2/ProxyHuntr.Windows.RC2.zip)(85MB)
+[Source Code (.zip)](https://github.com/J0113/ProxyHuntr/archive/RC2.zip)
